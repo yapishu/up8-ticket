@@ -6,6 +6,7 @@ const more = require('more-entropy')
 const ob = require('urbit-ob')
 const secrets = require('secrets.js-grempe')
 const zipWith = require('lodash.zipwith')
+const crypto = require('crypto')
 
 const GALOIS_BITSIZE = 8
 
